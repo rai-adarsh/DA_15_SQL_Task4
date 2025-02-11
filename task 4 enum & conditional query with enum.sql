@@ -84,5 +84,9 @@ select * , basic_op('mul',sales, no_of_qty) from orders ;
 
 select * , basic_op('div',sales, no_of_qty) from orders ;
 
+select * , basic_op('sum',sales, no_of_qty) from orders ;
+
+select * , basic_op('add',sales, no_of_qty) from orders ;
+
 commit;
 
